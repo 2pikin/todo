@@ -1,0 +1,35 @@
+.city-list-item {
+  font-size: 1.25rem;
+}
+
+.city-list-item button {
+  width: 35px;
+  margin: 5px;
+}
+
+.city-list-item-label {
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  width: 80px;
+}
+
+.city-list-item-icon {
+  margin-left: 25px;
+  margin-right: 5px;
+}
+
+.city-list-item-temp {
+  display: inline-block;
+  width: 90px;
+}
+
+.city-list-item.favorites .city-list-item-label {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.city-list-item.recycle .city-list-item-label {
+  text-decoration: line-through;
+}
